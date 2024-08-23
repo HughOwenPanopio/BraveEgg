@@ -14,6 +14,21 @@
 }
 @media screen and (max-width: 768px) {
     .main {
-        height: 1340px;
+        height: 1315px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .main {
+        height: 1305px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main {
+        height: 900px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .main {
+        height: 1015px;
     }
 }

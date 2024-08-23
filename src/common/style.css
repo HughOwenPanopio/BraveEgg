@@ -32,3 +32,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .burgerMenuBody {
+        max-width:max-content;
+    }
+}
