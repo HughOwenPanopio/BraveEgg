@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './style.css'
 import { useEffect } from 'react'
+import blossomtreeslogo from '../assets/blossomtreeslogo.png'
 
 function Header() {
 
@@ -20,7 +21,7 @@ function Header() {
     return <div>
         <div className="container-fluid text-center header-content">
           <div className="row">
-            <div className="col">brand logo</div>
+            <div className="col"><img src={blossomtreeslogo} alt="blossomtrees" className='brandLogo'/></div>
             <div className="col">case studies</div>
             <div className="col">what we do</div>
             <div className="col">our process</div>
@@ -34,13 +35,13 @@ function Header() {
         {isNotDesktop && <div className='burgerMenu'>
       <nav className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">brand logo</a>
+          <a className="navbar-brand" href="#"><img src={blossomtreeslogo} alt="blossomtrees" className='brandLogo'/></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="offcanvas offcanvas-end burgerMenuBody" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">brand logo</h5>
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src={blossomtreeslogo} alt="blossomtrees" className='brandLogo'/></h5>
               <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body ">
