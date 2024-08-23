@@ -1,0 +1,130 @@
+.cannabisContent {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cannabisContent h2 {
+    text-transform: uppercase;
+    color: #4528B6;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.cannabisContent h1 {
+    text-transform: uppercase;
+    color: #131212;
+    font-weight: 700;
+    font-size: 136.48px;
+}
+
+.cannabisContent p {
+    font-weight: 400;
+    font-size: 32px;
+    color: #131212;
+    width: 1348px;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.cannabisBtn {
+    align-items: center;
+    width: 1126.94px;
+    height: 112px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cannabisBtn .cannabisBtnInRev {
+    width: 562px;
+    height: 112px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F9F9F9;
+    border: none;
+    text-align: center;
+    background-color: #4528B6;
+    border-radius: 26.46px;
+    text-transform: uppercase;
+}
+
+.cannabisBtn .cannabisBtnHoWo {
+    width: 534.43px;
+    height: 112px;
+    border: solid 4.41px;
+    border-radius: 26.46px;
+    border-color: #131212;
+    font-weight: 600;
+    font-size: 40px;
+    color: #131212;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: inherit;
+}
+
+.waterBGContainer {
+    background-image: url('../../assets/waterBG.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 802px;
+    text-align: center;
+    position: relative;
+    margin: 110px auto;
+}
+
+.plant {
+    width: 1189px;
+    height: 805px;
+    position: relative;
+    z-index: 1;
+}
+
+.gradientBox {
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
+    margin-top: -245px;
+    width: 100%;
+    height: 248px;
+    position: absolute;
+    top: 1;
+    left: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cannabisContent h2 {
+        font-size: 60px;
+    }
+    .cannabisContent h1 {
+        font-size: 96.48px;
+    }
+    .cannabisContent p {
+        width: 800px;
+        font-size: 22px;
+        justify-content: center;
+    }
+    .cannabisBtn {
+        width: 926.94px;
+    }
+    .cannabisBtn .cannabisBtnInRev {
+        width: 462px;
+        font-size: 35px;
+    }
+    .cannabisBtn .cannabisBtnHoWo {
+        width: 434.43px;
+        font-size: 35px;
+    }
+    .plant {
+        width: 989px;
+        height: 705px;
+    }
+    .gradiantBox {
+        margin-top: -285px;
+    }
+}
