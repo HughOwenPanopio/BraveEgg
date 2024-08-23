@@ -4,6 +4,8 @@
     border-radius: 20px;
     width: 1722px;
     height: 186px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
 }
 
 .brandContent .brandText {
@@ -16,8 +18,18 @@
     height: 97px;
 }
 
+.teeter{
+    width: 180.19px;
+    height: 79.11px;
+}
+
 .cannaWholesalers {
     width: 103.28px;
     height: 115.37px;
+}
+
+.destinoFarms {
+    width: 181.29px;
+    height: 79.11px;
 }
 
