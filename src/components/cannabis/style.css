@@ -98,6 +98,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .cannabisContent {
+        margin-top: 30px;
+    }
     .cannabisContent h2 {
         font-size: 60px;
     }
@@ -120,11 +123,53 @@
         width: 434.43px;
         font-size: 35px;
     }
+    .waterBGContainer {
+        width: 100%;
+        height: 100%;
+        margin: 110px auto;
+    }
     .plant {
         width: 989px;
         height: 705px;
     }
-    .gradiantBox {
-        margin-top: -285px;
+}
+
+@media screen and (max-width: 768px) {
+    .cannabisContent h2 {
+        font-size: 50px;
     }
+    .cannabisContent h1 {
+        font-size: 76.48px;
+    }
+    .cannabisContent p {
+        width: 600px;
+        font-size: 20px;
+    }
+    .cannabisBtn {
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cannabisBtn .cannabisBtnInRev {
+        width: 362px;
+        font-size: 25px;
+        height: 90px;
+    }
+    .cannabisBtn .cannabisBtnHoWo {
+        width: 362px;
+        font-size: 25px;
+        height: 90px;
+    }
+    .waterBGContainer {
+        width: 100%;
+        height: 100%;
+        margin: 150px auto;
+    }
+    .plant {
+        width: 700px;
+        height: 500px;
+    }
+    
 }
