@@ -173,6 +173,15 @@
     }    
 }
 
+@media screen and (max-width: 736px) {
+    .cannabisBtn {
+        gap: 10px;
+    }
+    .cannabisBtn .cannabisBtnHoWo {
+        border: solid 1.5px;
+    }
+}
+
 @media screen and (max-width: 684px) {
     .cannabisContent h2 {
         font-size: 38px;
@@ -230,6 +239,7 @@
     .cannabisBtn {
         width: 390px;
         margin: 0 auto;
+        gap: 10px;
     }
     .cannabisBtn .cannabisBtnInRev {
         width: 362px;
