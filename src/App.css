@@ -22,13 +22,33 @@
         height: 1305px;
     }
 }
+@media screen and (max-width: 684px) {
+    .main {
+        height: 1280px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .main {
+        height: 1270px;
+    }
+}
 @media screen and (max-width: 425px) {
     .main {
-        height: 900px;
+        height: 950px;
     }
 }
 @media screen and (max-width: 415px) {
     .main {
-        height: 1015px;
+        height: 940px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .main {
+        height: 922px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .main {
+        height: 853px;
     }
 }
