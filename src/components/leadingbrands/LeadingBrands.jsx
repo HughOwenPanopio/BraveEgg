@@ -5,13 +5,13 @@ import './style.css'
 
 function LeadingBrands() {
   return (
-    <div>
+    <div className='leadingBrandMainContainer'>
       <div className="container-fluid brandContent">
         <div className="row brands">
-          <div className="col brandText">trusted by leading cannabis brands</div>
-          <div className="col"><img src={teeter} alt="teeter" className='teeter' /></div>
-          <div className="col"><img src={cannaWholesalers} alt="cannaWholesalers" className='cannaWholesalers' /></div>
-          <div className="col"><img src={destinoFarms} alt="destinoFarms" className='destinoFarms' /></div>
+          <div className="col brandText brandCol">trusted by leading cannabis brands</div>
+          <div className="col brandCol"><img src={teeter} alt="teeter" className='teeter' /></div>
+          <div className="col brandCol"><img src={cannaWholesalers} alt="cannaWholesalers" className='cannaWholesalers' /></div>
+          <div className="col brandCol"><img src={destinoFarms} alt="destinoFarms" className='destinoFarms' /></div>
         </div>
       </div>
     </div>
