@@ -1,0 +1,132 @@
+.storiesContainer {
+    background-image: url(../../assets/cannabis.jpg);
+    width: 1900px;
+    height: 1103px;
+    top: 2636px;
+    left: -42px;
+    gap: 0px;
+    opacity: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .scratchMultiColor {
+    width: 2031px;
+    height: 159.11px;
+    top: 2595px;
+    left: -74px;
+    gap: 0px;
+    opacity: 40%;
+} */
+
+.headerStoriesContainer {
+    width: 1900px;
+    height: 457px;
+    top: 2657px;
+    left: -3px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #000000 9.05%, rgba(0, 0, 0, 0.5) 60.28%, rgba(0, 0, 0, 0) 100%);
+    text-transform: uppercase;
+    color: rgba(245, 245, 245, 1);
+}
+
+.headerStoriesContainer h1 {
+    margin: 0 auto;
+    width: 1010px;
+    height: 89px;
+    position: absolute;
+    top: 2765px;
+    left: 455px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 88.67px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.headerStoriesContainer h3 {
+    margin: 0 auto;
+    width: 357px;
+    height: 51px;
+    position: absolute;
+    top: 2869px;
+    left: 780px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48.22px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.storiesCardContainer {
+    width: 1720px;
+    height: 611px;
+    position: absolute;
+    top: 2981px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    gap: 50px;
+}
+
+.storiesCard {
+    width: 557px;
+    height: 611px;
+    top: 2981px;
+    left: 1262px;
+    gap: 0px;
+    border-radius: 29.15px;
+    opacity: 0px;
+    background: rgba(245, 245, 245, 1);
+    text-align: center;
+    align-content: center;
+}
+
+.storiesCardImg {
+    width: 479.07px;
+    height: 345.94px;
+    top: 3018.72px;
+    left: 137.87px;
+    gap: 0px;
+    border-radius: 19.44px;
+    opacity: 0px;
+    margin-top: -10px;
+}
+
+.storiesCardBrandName {
+    margin: 30px auto;
+    width: 479.07px;
+    height: 57px;
+    top: 3395.54px;
+    left: 137.87px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 38.87px;
+    font-weight: 700;
+    line-height: 57.44px;
+    text-align: center;
+    color: rgba(69, 40, 182, 1);
+}
+
+.storiesCardButton {
+    width: 268px;
+    height: 72px;
+    top: 3477px;
+    left: 244px;
+    gap: 0px;
+    border-radius: 19.87px;
+    border: none;
+    opacity: 0px;
+    background: rgba(69, 40, 182, 1);
+    text-transform: uppercase;
+    color: rgba(249, 249, 249, 1);
+    font-weight: 600;
+    font-size: 30.04px;
+    line-height: 37.84px;
+}

@@ -1,5 +1,8 @@
 .leadingBrandMainContainer {
-    height: 13%;
+    margin-top: -105px;
+    height: 20%;
+    background: rgba(245, 245, 245, 1);
+    padding-top: 100px;
 }
 
 .brandContent {

@@ -3,6 +3,7 @@ import './App.css'
 import Cannabis from './components/cannabis/Cannabis'
 import LeadingBrands from './components/leadingbrands/LeadingBrands'
 import Services from './components/serviceOffered/Services'
+import Stories from './components/story/Stories'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Cannabis />
         <LeadingBrands />
         <Services />
+        <Stories />
       </div>
     </>
   )

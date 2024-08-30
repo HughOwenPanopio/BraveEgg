@@ -1,12 +1,14 @@
 .servicesMainContainer {
     width: 1900px;
-    height: 423px;
+    height: 450px;
     top: 2221px;
     opacity: 0px;
     display: flex;
     gap: 60px;
     align-items: center;
     justify-content: center;
+    background: rgba(245, 245, 245, 1);
+    padding-bottom: 100px;
 }
 
 .servicesCard {
@@ -35,6 +37,16 @@
     text-transform: uppercase;
     color: rgba(69, 40, 182, 1);
     margin: 20px auto;
+}
+
+.scratchWhite {
+    width: 1900px;
+    height: 120.18px;
+    position: absolute;
+    top: 2600px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(245, 245, 245, 1);
 }
 
 @media screen and (max-width: 1024px) {

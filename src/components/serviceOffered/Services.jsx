@@ -3,6 +3,7 @@ import shield from "../../assets/shield.png"
 import scale from "../../assets/scale.png"
 import arrow from "../../assets/arrow.png"
 import graph from "../../assets/graph.png"
+import scratchWhite from '../../assets/scratchWhite.png'
 
 const cardContents = [{
     image: shield,
@@ -23,6 +24,7 @@ const cardContents = [{
 
 function Services() {
   return (
+    <>
     <div className="servicesMainContainer">
       {cardContents.map((content) => 
         <div className="card servicesCard" style={{width: "386px", height: "287px", borderRadius: "20px"}} key={content.text}>
@@ -33,6 +35,8 @@ function Services() {
         </div>
         )}
     </div>
+    <img src={scratchWhite} alt="" className='scratchWhite'/>
+    </>
   )
 }
 
