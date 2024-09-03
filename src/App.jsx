@@ -4,6 +4,8 @@ import Cannabis from './components/cannabis/Cannabis'
 import LeadingBrands from './components/leadingbrands/LeadingBrands'
 import Services from './components/serviceOffered/Services'
 import Stories from './components/story/Stories'
+import TechPartners from './components/techPartners/TechPartners'
+import Consultation from './components/consultation/Consultation'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <LeadingBrands />
         <Services />
         <Stories />
+        <TechPartners />
+        <Consultation />
       </div>
     </>
   )

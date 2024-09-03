@@ -1,0 +1,73 @@
+.consultationContainer {
+    background-image:  url(../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 1903px;
+    height: 2769px;
+    top: 4178px;
+    left: -7px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.consultationHeaderContent{
+    width: 1903px;
+    height: 684px;
+    top: 4201px;
+    left: -1px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.rectangle {
+    width: 1903px;
+    height: 235.93px;
+    top: 4436.93px;
+    left: 1920px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-180deg);
+    background: linear-gradient(0deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.cloudImg {
+    margin: -235px auto;
+    width: 1903px;
+    height: 684px;
+    top: 4885px;
+    left: 1919px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.consultationHeading {
+    width: 1390px;
+    height: 89px;
+    position: absolute;
+    top: 4511px;
+    left: 265px;
+    gap: 0px;
+    opacity: 0px;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 88.67px;
+    text-align: center;
+    color: rgba(69, 40, 182, 1);
+}
+
+.consultationDescription {
+    width: 1092px;
+    height: 147px;
+    position: absolute;
+    top: 4615px;
+    left: 413px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48.22px;
+    text-align: center;
+    color: rgba(69, 40, 182, 1);
+}

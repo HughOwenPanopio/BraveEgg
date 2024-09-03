@@ -130,3 +130,13 @@
     font-size: 30.04px;
     line-height: 37.84px;
 }
+
+.scratchBottom {
+    width: 1903px;
+    height: 120.18px;
+    position: absolute;
+    top: 3680px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(245, 245, 245, 1);
+}

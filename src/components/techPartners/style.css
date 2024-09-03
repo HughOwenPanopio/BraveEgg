@@ -1,0 +1,45 @@
+.techPartnersContainer {
+    width: 1903px;
+    height: 494px;
+    top: 3714px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(245, 245, 245, 1);
+}
+
+.techPartnersHeader {
+    text-transform: uppercase;
+    width: 858px;
+    height: 89px;
+    top: 3877px;
+    position: absolute;
+    left: 531px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 88.67px;
+    text-align: center;
+    color: rgba(69, 40, 182, 1);
+}
+
+.techPartnersLogo {
+    width: 1720px;
+    height: 161.38px;
+    top: 4016.31px;
+    position: absolute;
+    left: 99px;
+    gap: 0px;
+    border-radius: 29.15px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37.1px;
+}
+
+.techPartnersImg {
+    width: 314.27px;
+    height: 161.38px;
+    border-radius: 29.15px;
+    opacity: 0px;
+}

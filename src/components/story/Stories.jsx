@@ -2,6 +2,7 @@ import './style.css'
 import jeeterProduct from '../../assets/jeeterCannabisProduct.png'
 import destinoProducts from '../../assets/destinoFarmsProducts.png'
 import cannaWholesaleProduct from '../../assets/cannaWholesalerProduct.png'
+import scratchBottom from '../../assets/scratchBottom.png'
 // import scratchMultiColor from '../../assets/scratchMultiColor.png'
 
 const storiesProducts = [{
@@ -35,6 +36,8 @@ function Stories() {
           </div>
         )}
       </div>
+
+      <img src={scratchBottom} alt="scratchBottom" className='scratchBottom'/>
     </div>
   )
 }
