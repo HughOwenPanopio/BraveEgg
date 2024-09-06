@@ -6,6 +6,7 @@ import Services from './components/serviceOffered/Services'
 import Stories from './components/story/Stories'
 import TechPartners from './components/techPartners/TechPartners'
 import Consultation from './components/consultation/Consultation'
+import OurProcess from './components/process/OurProcess'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Stories />
         <TechPartners />
         <Consultation />
+        <OurProcess />
       </div>
     </>
   )

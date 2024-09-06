@@ -9,6 +9,8 @@ import dart from '../../assets/dart.png'
 import checklist from '../../assets/checklist.png'
 import writing from '../../assets/writing.png'
 import mail from '../../assets/mail.png'
+import clipRight from '../../assets/ClipRight.png'
+import clipLeft from '../../assets/ClipLeft.png'
 
 const consultations = [{
   image: chess,
@@ -47,6 +49,30 @@ function Consultation() {
             <img src={cloud} alt="clour" className='cloudImg'/>
             <h1 className='consultationHeading'>full stack email & sms</h1>
             <p className='consultationDescription'>We create yiur strategy, craft compelling copy, design engaging emails, and constantly measure, analyze, test, and optimize your campaigns to keep your brand ahead of the competition.</p>
+        </div>
+
+        <div className="clipContainer">
+          <img src={clipRight} alt="clipSides" className='clipRight' />
+          <img src={clipLeft} alt="clipSides" className='clipLeft' />
+        </div>
+
+        <div className="consultationCard">
+          {consultations.map((consultation) => 
+            <div className="consultationCardContent" key={consultation.header}>
+              <img src={consultation.image} alt="" className='consultationCardImg'/>
+              <div className="consultationContent">
+                <div className="snippetContainer">
+                  <img src={consultation.snippet} alt="" className='consultationContentSnippet'/>
+                </div>
+                <h2 className='consultationCardHeader'>{consultation.header}</h2>
+                <p className='consultationCardDescription'>{consultation.description}</p>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="freeConsultationBTNContainer">
+          <button className='freeConsultationBTN'>free consultation</button>
         </div>
     </div>
   )

@@ -1,0 +1,20 @@
+.OurProcessContainer {
+    width: 100%;
+    height: 2194px;
+    top: 6951px;
+    left: -7px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #4528B6 0%, #1E1250 100%);
+}
+
+.OurProcessRectangle {
+    width: 100%px;
+    height: 138px;
+    top: 7089px;
+    left: 1920px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-180deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}

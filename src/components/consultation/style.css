@@ -71,3 +71,138 @@
     text-align: center;
     color: rgba(69, 40, 182, 1);
 }
+
+.clipRight {
+    position: absolute;
+    top: 4490px;
+    left: 1210px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.clipLeft {
+    position: absolute;
+    top: 4490px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.consultationCard {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4831px;
+    left: 366px;
+    gap: 50px;
+}
+
+.consultationCardContent {
+    display: flex;
+    width: 1189px;
+    height: 438px;
+    top: 4831px;
+    left: 366px;
+    gap: 100px;
+    border-radius: 29.15px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #F3F2F8 0%, #E4E1EE 100%);
+    padding: 50px 50px 50px 50px;
+}
+
+.snippetContainer {
+    background-image: url(../../assets/Ellipse.png);
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    top: 5353px;
+    left: 1042px;
+    gap: 0px;
+    opacity: 0px;
+    color: radial-gradient(50% 50% at 50% 50%, #BBAAFF 59%, #97A0EF 100%);
+    align-content: center;
+    text-align: center;
+}
+
+.consultationCardImg {
+    width: 533px;
+    height: 335px;
+    top: 5352px;
+    left: 413px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+}
+
+.consultationContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.consultationContentSnippet {
+    width: 39px;
+    height: 39.05px;
+    top: 5846px;
+    left: 1065px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.consultationCardHeader {
+    width: 324.43px;
+    height: 62px;
+    top: 4897px;
+    left: 1151px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 39.68px;
+    font-weight: 700;
+    line-height: 49.8px;
+    text-align: left;
+    color: rgba(69, 40, 182, 1);
+}
+
+.consultationCardDescription {
+    width: 455px;
+    height: 218px;
+    top: 4986px;
+    left: 1042px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36.17px;
+    text-align: left;
+    color: rgba(69, 40, 182, 1);
+    margin: 10px auto;
+}
+
+.freeConsultationBTNContainer {
+    width: 1903px;
+    height: 205px;
+    position: absolute;
+    top: 6810px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-0deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    text-align: center;
+}
+
+.freeConsultationBTN {
+    width: 562px;
+    height: 112px;
+    border-radius: 26.46px;
+    opacity: 0px;
+    background: rgba(69, 40, 182, 1);
+    border: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    color: rgba(249, 249, 249, 1);
+}
