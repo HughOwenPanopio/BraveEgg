@@ -28,10 +28,10 @@ const processes = [{
   description: "Once you are ready to partner with us, we get you onboarded and get the party started. We get your sales and customer engagement high as a kite."
 },
 {
-  num: 4,
-  img: write,
-  title: "Produce First Design",
-  description: "Within the first few days, we deliver the initial email design drafts. You provide feedback, and we revise as needed."
+  num: 6,
+  img: graph,
+  title: "Split test, Analyze, and Improve Performance",
+  description: "We review performance data, make improvements, and constantly split-test to achieve better metrics over time."
 },
 {
   num: 5,
@@ -40,10 +40,10 @@ const processes = [{
   description: "We get your campaigns and automations live and generating revenue, engagement and customers."
 },
 {
-  num: 6,
-  img: graph,
-  title: "Split test, Analyze, and Improve Performance",
-  description: "We review performance data, make improvements, and constantly split-test to achieve better metrics over time."
+  num: 4,
+  img: write,
+  title: "Produce First Design",
+  description: "Within the first few days, we deliver the initial email design drafts. You provide feedback, and we revise as needed."
 }]
 
 function OurProcess() {
@@ -56,8 +56,22 @@ function OurProcess() {
         <p className='ourProcessIntroduction'>Ready to grow your cannabis brand? Here&apos;s how we work together:</p>
 
         <div className="ourProcessCardsContainer">
-
+          {processes.map((process) =>
+          <>
+            <div className="ourProcessCardContent" key={process.num}>
+              <div className="ourProcessCardNum"><p className='processNum'>{process.num}</p></div>
+              <img src={process.img} alt="processImg" className='ourProcessCardImg'/>
+              <h3 className='ourProcessCardTitle'>{process.title}</h3>
+              <p className="ourProcessCardDescription">{process.description}</p>
+            </div>
+          </>
+          )}
+          <img src={trace1} alt="" className='processtrace1'/>
+          <img src={trace2} alt="" className='processtrace2'/>
         </div>
+        <button className='ourProcessBTN'>get started now</button>
+        <div className="ourProcessRectangleBigBottom"></div>
+        <img src={cloudProcess} alt="" className='clourProcessImgBottom' />
     </div>
   )
 }
