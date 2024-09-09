@@ -1,0 +1,70 @@
+.freqAskQuesContainer {
+    width: 100%;
+    height: 3310px;
+    top: 9157px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(245, 245, 245, 1);
+}
+
+.freqAskQuesHeading {
+    width: 1247px;
+    height: 89px;
+    position: absolute;
+    top: 9295px;
+    left: 352px;
+    gap: 0px;
+    opacity: 0px;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 88.67px;
+    text-align: center;
+    color: rgba(69, 40, 182, 1);
+}
+
+.freqAskQuesCard {
+    width: 1454px;
+    position: absolute;
+    top: 9500px;
+    left: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.freqAskQuesContent {
+    width: 1454px;
+    top: 9357px;
+    left: 232px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #F3F2F8 0%, #E4E1EE 100%);
+    box-shadow: 0px 4px 12.2px 0px rgba(104, 84, 136, 1);
+    padding: 80px 100px 80px 100px;
+}
+
+.freqAskQuesQuestion {
+    width: 1116px;
+    height: 51px;
+    opacity: 0px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54.25px;
+    text-align: left;
+    color: rgba(69, 40, 182, 1);
+}
+
+.faqBulletAsnwer, .faqAnswer {
+    width: 1185px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48.22px;
+    text-align: left;
+    color: rgba(69, 40, 182, 1);
+}
