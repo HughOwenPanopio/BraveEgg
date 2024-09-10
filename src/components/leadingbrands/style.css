@@ -44,8 +44,8 @@
 
 @media screen and (max-width: 1024px) {
     .leadingBrandMainContainer {
-        margin-top: -30px;
-        height: 10%;
+        margin-top: -110px;
+        height: 20%;
     }
     .brandContent {
         width: 922px;
@@ -78,10 +78,11 @@
 
 @media screen and (max-width: 768px) {
     .leadingBrandMainContainer {
-        margin-top: -100px;
-        height: 13%;
+        margin-top: -150px;
+        height: 15%;
     }
     .brandContent {
+        margin: -50px auto;
         width: 722px;
         height: 106px;
         padding: 5px 0px 20px 0px;
@@ -182,9 +183,10 @@
 
 @media screen and (max-width: 425px) {
     .leadingBrandMainContainer {
-        margin-top: -50px;
+        margin-top: -80px;
     }
     .brandContent {
+        margin: -65px auto;
         width: 370px;
         height: 80px;
         border-radius: 15px;
@@ -214,8 +216,22 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
+    .leadingBrandMainContainer {
+        margin-top: -80px;
+    }
     .brandContent {
+        margin: -65px auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .leadingBrandMainContainer {
+        margin-top: -80px;
+        height: 13%;
+    }
+    .brandContent {
+        margin: -78px auto;
         width: 330px;
         height: 80px;
     }

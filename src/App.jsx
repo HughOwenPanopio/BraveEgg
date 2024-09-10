@@ -20,10 +20,10 @@ function App() {
         <LeadingBrands />
         <Services />
         <Stories />
-        <TechPartners />
-        <Consultation />
-        <OurProcess />
-        <FreqAskQues />
+        {/* <TechPartners /> */}
+        {/* <Consultation /> */}
+        {/* <OurProcess /> */}
+        {/* <FreqAskQues /> */}
       </div>
     </>
   )

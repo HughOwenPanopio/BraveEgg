@@ -1,6 +1,6 @@
 .storiesContainer {
     background-image: url(../../assets/cannabis.jpg);
-    width: 1900px;
+    width: 100%;
     height: 1103px;
     top: 2636px;
     left: -42px;
@@ -20,7 +20,7 @@
 } */
 
 .headerStoriesContainer {
-    width: 1900px;
+    width: 100%;
     height: 457px;
     top: 2657px;
     left: -3px;
@@ -139,4 +139,81 @@
     gap: 0px;
     opacity: 0px;
     color: rgba(245, 245, 245, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    .storiesContainer {
+        background-size: contain;
+        height: 50%;
+    }
+    .headerStoriesContainer {
+        width: 100%;
+        height: 30%;
+        background-color: red;
+    }
+    .headerStoriesContainer h1 {
+        width: 100%;
+        height: 67px;
+        position: absolute;
+        top: 2215px;
+        left: 0px;
+        font-size: 32px;
+    }
+    .headerStoriesContainer h3 {
+        width: 100%;
+        height: 41px;
+        position: absolute;
+        top: 2275px;
+        left: 0px;
+        font-size: 26px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 611px;
+        margin: -630px auto !important;
+        margin-left: -35px !important;
+        gap: 30px;
+    }
+    .storiesCard {
+        width: 28%;
+        height: 350px;
+    }
+    .storiesCardImg {
+        width: 90%;
+        height: 45%;
+        margin-top: 0px;
+    }
+    .storiesCardBrandName {
+        margin: 15px auto;
+        width: 100%;
+        height: 57px;
+        font-size: 28px;
+    }
+    .storiesCardButton {
+        width: 90%;
+        height: 72px;
+        font-size: 25px;
+    }
+    .scratchBottom {
+        width: 100%;
+        height: 15%;
+        position: absolute;
+        top: 2743px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 1820px;
+        left: 0px;
+        font-size: 32px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 1880px;
+        left: 0px;
+        font-size: 26px;
+    }
 }

@@ -1,5 +1,5 @@
 .servicesMainContainer {
-    width: 1900px;
+    width: 100%;
     height: 450px;
     top: 2221px;
     opacity: 0px;
@@ -40,7 +40,7 @@
 }
 
 .scratchWhite {
-    width: 1900px;
+    width: 100%;
     height: 120.18px;
     position: absolute;
     top: 2600px;
@@ -51,12 +51,13 @@
 
 @media screen and (max-width: 1024px) {
     .servicesMainContainer {
-        width: 922px;
-        height: 223px;
+        width: 100%;
+        height: 250px;
         margin: 0 auto;
+        gap: 30px;
     }
     .servicesCard {
-        /* width: 286px !important; */
+        width: 208px !important;
         height: 187px !important;
     }
     .servicesImage {
@@ -68,17 +69,25 @@
         height: 77px;
         font-size: 18px;
     }
+    .scratchWhite {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 2100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .servicesMainContainer {
-        width: 722px;
-        height: 80px;
+        width: 100%;
+        height: 240px;
         margin: 0 auto;
-        gap: 30px;
+        padding-top: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .servicesCard {
-        /* width: 286px !important; */
+        width: 286px !important;
         height: 147px !important;
     }
     .servicesImage {
@@ -93,39 +102,69 @@
     .servicesContent {
         margin-top: -13px;
     }
+    .scratchWhite {
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        top: 1750px;
+    }
 }
 
 @media screen and (max-width: 736px) {
     .servicesMainContainer {
-        width: 660px;
-        height: 80px;
+        width: 100%;
+        height: 230px;
         margin: 0 auto;
         gap: 10px;
+        padding-top: 40px;
+    }
+    .servicesCard {
+        width: 158px !important;
+        height: 147px !important;
+    }
+    .scratchWhite {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 1750px;
     }
 }
 
 @media screen and (max-width: 684px) {
     .servicesMainContainer {
-        width: 610px;
-        height: 80px;
+        width: 100%;
+        height: 240px;
         margin: 0 auto;
         gap: 10px;
+    }
+    .servicesCard {
+        width: 145px !important;
+        height: 140px !important;
     }
     .servicesImage {
         width: 45px;
         margin-top: 12.5px;
     }
     .servicesText {
+        margin-top: 10px;
         width: 108px;
         height: 57px;
         font-size: 13.5px;
+    }
+    .scratchWhite {
+        position: absolute;
+        top: 1720px;
     }
 }
 
 @media screen and (max-width: 667px) {
     .servicesMainContainer {
-        width: 590px;
-        height: 80px;
+        width: 100%;
+        height: 210px;
+    }
+    .servicesCard {
+        width: 140px !important;
+        height: 135px !important;
     }
     .servicesImage {
         width: 40px;
@@ -136,30 +175,71 @@
         height: 57px;
         font-size: 14px;
     }
+    .scratchWhite {
+        position: absolute;
+        top: 1680px;
+    }
 }
 
 @media screen and (max-width: 425px) {
     .servicesMainContainer {
-        width: 370px;
-        height: 310px;
+        width: 100%;
+        height: 400px;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         margin-top: -10px;
     }
     .servicesCard {
-        width: 175px !important;
+        width: 180px !important;
+        height: 150px !important;
+        padding-top: 5px;
     }
     .servicesText {
+        margin-top: 15px;
         width: 108px;
         height: 57px;
         font-size: 13px;
+    }
+    .scratchWhite {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 1500px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .servicesMainContainer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: -10px;
+    }
+    .servicesCard {
+        width: 176px !important;
+        height: 150px !important;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .servicesMainContainer {
+        width: 100%;
+        height: 400px;
+    }
+    .servicesCard {
+        width: 175px !important;
+        height: 150px !important;
+        padding-top: 5px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .servicesMainContainer {
-        width: 330px;
+        width: 100%;
     }
     .servicesCard {
         width: 155px !important;
@@ -169,13 +249,23 @@
         height: 57px;
         font-size: 12px;
     }
+    .scratchWhite {
+        position: absolute;
+        top: 1455px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .servicesMainContainer {
-        width: 300px;
+        width: 100%;
+        margin-top: 0px;
     }
     .servicesCard {
-        width: 140px !important;
+        width: 137px !important;
+        height: 140px !important;
+    }
+    .scratchWhite {
+        position: absolute;
+        top: 1435px;
     }
 }
