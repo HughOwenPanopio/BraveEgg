@@ -204,6 +204,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .storiesContainer {
+        background-size: contain;
+        height: 50%;
+    }
     .headerStoriesContainer h1 {
         position: absolute;
         top: 1820px;
@@ -215,5 +219,103 @@
         top: 1880px;
         left: 0px;
         font-size: 26px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 285px;
+        margin: -1040px auto !important;
+        margin-left: -65px !important;
+        gap: 40px;
+    }
+    .storiesCard {
+        width: 28%;
+        height: 260px;
+    }
+    .storiesCardImg {
+        width: 85%;
+        height: 42.5%;
+        margin-top: 0px;
+    }
+    .storiesCardBrandName {
+        margin: 0px auto;
+        width: 100%;
+        height: 57px;
+        font-size: 21px;
+    }
+    .storiesCardButton {
+        width: 85%;
+        height: 52px;
+        font-size: 22px;
+    }
+    .scratchBottom {
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        top: 2220px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 1800px;
+        left: 0px;
+        font-size: 32px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 1860px;
+        left: 0px;
+        font-size: 26px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 285px;
+        margin: -1060px auto !important;
+        margin-left: -57px !important;
+        gap: 30px;
+    }
+    .scratchBottom {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 2205px;
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 734px) {
+    .scratchBottom {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 2200px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 1780px;
+        left: 0px;
+        font-size: 30px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 1840px;
+        left: 0px;
+        font-size: 26px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 285px;
+        margin: -1080px auto !important;
+        margin-left: -57px !important;
+        gap: 30px;
+    }
+    .storiesCard {
+        width: 28%;
+        height: 240px;
     }
 }
