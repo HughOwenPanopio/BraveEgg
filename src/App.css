@@ -7,6 +7,12 @@
     height: 1830px;
 }
 
+@media screen and (max-width: 1274px) {
+    .main {
+        height: 1870px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .main {
         height: 1588px;

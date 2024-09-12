@@ -27,7 +27,7 @@ function Services() {
     <>
     <div className="servicesMainContainer">
       {cardContents.map((content) => 
-        <div className="card servicesCard" style={{width: "386px", height: "287px", borderRadius: "20px"}} key={content.text}>
+        <div className="card servicesCard" style={{width: "386px", height: "290px", borderRadius: "20px"}} key={content.text}>
             <div className="card-body servicesContent">
                 <img src={content.image} alt="content img" className="servicesImage" />
                 <h5 className="card-text servicesText">{content.text}</h5>

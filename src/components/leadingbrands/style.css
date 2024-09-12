@@ -2,14 +2,14 @@
     margin-top: -105px;
     height: 20%;
     background: rgba(245, 245, 245, 1);
-    padding-top: 100px;
+    padding: 100px 85px 0px 85px;
 }
 
 .brandContent {
     background: linear-gradient(180deg, #F3F2F8 0%, #E4E1EE 100%);
     box-shadow: 0px 4px 12.2px 0px rgba(104, 84, 136, 1);
     border-radius: 20px;
-    width: 1722px;
+    width: 100%;
     height: 186px;
     text-align: center;
     padding: 40px 0px 50px 0px;
@@ -40,6 +40,13 @@
 .destinoFarms {
     width: 181.29px;
     height: 79.11px;
+}
+
+@media screen and (max-width: 1274px) {
+    .brandText {
+        padding-left: 50px;
+        font-size: 23px;
+    }
 }
 
 @media screen and (max-width: 1024px) {

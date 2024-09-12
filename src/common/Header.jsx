@@ -5,11 +5,11 @@ import blossomtreeslogo from '../assets/blossomtreeslogo.png'
 
 function Header() {
 
-  const [isNotDesktop, setIsNotDesktop] = useState(window.innerWidth < 1274)
+  const [isNotDesktop, setIsNotDesktop] = useState(window.innerWidth < 1275)
 
   useEffect(function () {
     const handleResize = () => {
-      setIsNotDesktop(window.innerWidth < 1274)
+      setIsNotDesktop(window.innerWidth < 1275)
     }
     window.addEventListener('resize', handleResize)
 

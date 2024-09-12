@@ -49,6 +49,25 @@
     color: rgba(245, 245, 245, 1);
 }
 
+@media screen and (max-width: 1274px) {
+    .servicesMainContainer {
+        gap: 35px;
+    }
+    .servicesCard {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .servicesText {
+        width: 100%;
+        height: 77px;
+        font-size: 20px;
+    }
+    .scratchWhite {
+        position: absolute;
+        top: 2650px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .servicesMainContainer {
         width: 100%;
