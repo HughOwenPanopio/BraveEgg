@@ -118,9 +118,9 @@
         font-size: 96.48px;
     }
     .cannabisContent p {
-        width: 800px;
+        width: 100%;
         font-size: 22px;
-        justify-content: center;
+        padding: 0px 60px 0px 60px;
     }
     .cannabisBtn {
         width: 926.94px;
@@ -154,6 +154,7 @@
     .cannabisContent p {
         width: 600px;
         font-size: 20px;
+        padding: 0px 0px 0px 0px;
     }
     .cannabisBtn {
         width: 600px;

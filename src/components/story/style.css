@@ -201,19 +201,19 @@
 
 @media screen and (max-width: 1024px) {
     .storiesContainer {
-        background-size: contain;
-        height: 50%;
+        background-size: cover;
+        height: 40%;
     }
     .headerStoriesContainer {
         width: 100%;
-        height: 30%;
+        height: 50%;
         /* background-color: red; */
     }
     .headerStoriesContainer h1 {
         width: 100%;
         height: 67px;
         position: absolute;
-        top: 2215px;
+        top: 2170px;
         left: 0px;
         font-size: 32px;
     }
@@ -221,24 +221,24 @@
         width: 100%;
         height: 41px;
         position: absolute;
-        top: 2275px;
+        top: 2235px;
         left: 0px;
         font-size: 26px;
     }
     .storiesCardContainer {
         width: 100%;
         height: 350px;
-        margin-top: -630px;
+        margin-top: -670px;
         gap: 30px;
     }
     .storiesCard {
         width: 28%;
         height: 350px;
         gap: 0px;
-        padding: 30px 20px 30px 20px;
+        padding: 20px 20px 20px 20px;
     }
     .storiesCardImg {
-        width: 95%;
+        width: 100%;
         height: 45%;
         margin-top: 0px;
     }
@@ -249,15 +249,15 @@
         font-size: 28px;
     }
     .storiesCardButton {
-        width: 95%;
+        width: 100%;
         height: 72px;
         font-size: 25px;
     }
     .scratchBottom {
         width: 100%;
-        height: 15%;
+        height: 10%;
         position: absolute;
-        top: 2743px;
+        top: 2705px;
         gap: 0px;
     }
 }
@@ -265,17 +265,17 @@
 @media screen and (max-width: 768px) {
     .storiesContainer {
         background-size: contain;
-        height: 50%;
+        height: 40%;
     }
     .headerStoriesContainer h1 {
         position: absolute;
-        top: 1820px;
+        top: 1800px;
         left: 0px;
         font-size: 32px;
     }
     .headerStoriesContainer h3 {
         position: absolute;
-        top: 1880px;
+        top: 1860px;
         left: 0px;
         font-size: 26px;
     }
@@ -310,9 +310,9 @@
     }
     .scratchBottom {
         width: 100%;
-        height: 10%;
+        height: 8%;
         position: absolute;
-        top: 2220px;
+        top: 2242px;
         gap: 0px;
     }
 }

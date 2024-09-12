@@ -90,20 +90,20 @@
     }
     .scratchWhite {
         width: 100%;
-        height: 15%;
+        height: 10%;
         position: absolute;
-        top: 2115px;
+        top: 2085px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .servicesMainContainer {
         width: 100%;
-        height: 240px;
+        height: 200px;
         margin: 0 auto;
-        padding-top: 30px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .servicesCard {
         width: 286px !important;
@@ -123,9 +123,9 @@
     }
     .scratchWhite {
         width: 100%;
-        height: 10%;
+        height: 8%;
         position: absolute;
-        top: 1750px;
+        top: 1730px;
     }
 }
 
