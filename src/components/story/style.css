@@ -72,6 +72,7 @@
     gap: 0px;
     opacity: 0px;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     align-items: center;
     justify-content: center;
@@ -151,7 +152,7 @@
     .headerStoriesContainer {
         width: 100%;
         height: 30%;
-        background-color: red;
+        /* background-color: red; */
     }
     .headerStoriesContainer h1 {
         width: 100%;
@@ -366,6 +367,76 @@
         height: 20%;
         position: absolute;
         top: 2090px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .storiesContainer {
+        background-image: url(../../assets/cannabis.jpg);
+        width: 100%;
+        height: 950px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .headerStoriesContainer {
+        width: 100%;
+        height: 60%;
+        /* background-color: red; */
+    }
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 1530px;
+        left: 0px;
+        font-size: 28px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 1585px;
+        left: 0px;
+        font-size: 24px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 285px;
+        margin-top: -1330px;
+        gap: 20px;
+    }
+    .storiesCard {
+        width: 50%;
+        height: 240px;
+    }
+    .scratchBottom {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 2445px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 1480px;
+        left: 0px;
+        font-size: 28px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 1535px;
+        left: 0px;
+        font-size: 24px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 285px;
+        margin-top: -1380px;
+        gap: 20px;
+    }.scratchBottom {
+        position: absolute;
+        top: 2401px;
         gap: 0px;
     }
 }
