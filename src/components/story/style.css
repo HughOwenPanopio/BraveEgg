@@ -136,13 +136,67 @@
 }
 
 .scratchBottom {
-    width: 1903px;
+    width: 100%;
     height: 120.18px;
     position: absolute;
     top: 3680px;
     gap: 0px;
     opacity: 0px;
     color: rgba(245, 245, 245, 1);
+}
+
+@media screen and (max-width: 1274px) {
+    .storiesContainer {
+        width: 100%;
+        height: 880px;
+        background-position: center;
+    }
+    .headerStoriesContainer h1 {
+        width: 100%;
+        height: 67px;
+        top: 2800px;
+        left: 0px;
+        font-size: 60px;
+    }
+    .headerStoriesContainer h3 {
+        width: 100%;
+        height: 41px;
+        position: absolute;
+        top: 2880px;
+        left: 0px;
+        font-size: 26px;
+    }
+    .storiesCardContainer {
+        width: 100%;
+        height: 350px;
+        gap: 30px;
+    }
+    .storiesCard {
+        width: 357px;
+        height: 450px;
+        border-radius: 29.15px;
+        padding: 30px 30px 30px 30px;
+        gap: 25px;
+    }
+    .storiesCardImg {
+        width: 100%;
+        height: 45%;
+        margin-top: 0px;
+    }
+    .storiesCardBrandName {
+        margin: 15px auto;
+        width: 100%;
+        height: 57px;
+        font-size: 33px;
+    }
+    .storiesCardButton {
+        width: 100%;
+        height: 72px;
+        font-size: 30px;
+    }
+    .scratchBottom {
+        top: 3508px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
