@@ -81,14 +81,16 @@
 .storiesCard {
     width: 557px;
     height: 611px;
-    top: 2981px;
-    left: 1262px;
-    gap: 0px;
     border-radius: 29.15px;
     opacity: 0px;
     background: rgba(245, 245, 245, 1);
     text-align: center;
     align-content: center;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .storiesCardImg {
@@ -99,11 +101,10 @@
     gap: 0px;
     border-radius: 19.44px;
     opacity: 0px;
-    margin-top: -10px;
 }
 
 .storiesCardBrandName {
-    margin: 30px auto;
+    /* margin: 30px auto; */
     width: 479.07px;
     height: 57px;
     top: 3395.54px;
@@ -179,9 +180,11 @@
     .storiesCard {
         width: 28%;
         height: 350px;
+        gap: 0px;
+        padding: 30px 20px 30px 20px;
     }
     .storiesCardImg {
-        width: 90%;
+        width: 95%;
         height: 45%;
         margin-top: 0px;
     }
@@ -192,7 +195,7 @@
         font-size: 28px;
     }
     .storiesCardButton {
-        width: 90%;
+        width: 95%;
         height: 72px;
         font-size: 25px;
     }
@@ -231,9 +234,11 @@
     .storiesCard {
         width: 28%;
         height: 260px;
+        padding: 20px 20px 20px 20px;
+        gap: 10px;
     }
     .storiesCardImg {
-        width: 85%;
+        width: 100%;
         height: 42.5%;
         margin-top: 0px;
     }
@@ -244,9 +249,10 @@
         font-size: 21px;
     }
     .storiesCardButton {
-        width: 85%;
+        width: 100%;
         height: 52px;
         font-size: 22px;
+        border-radius: 15px;
     }
     .scratchBottom {
         width: 100%;
@@ -275,6 +281,10 @@
         height: 285px;
         margin-top: -1070px;
         gap: 30px;
+    }
+    .storiesCardBrandName {
+        height: 57px;
+        font-size: 20px;
     }
     .scratchBottom {
         width: 100%;
@@ -317,20 +327,21 @@
     .storiesCard {
         width: 27%;
         height: 220px;
+        gap: 0px;
     }
     .storiesCardImg {
-        width: 85%;
-        height: 40%;
+        width: 100%;
+        height: 50%;
         margin-top: 0px;
     }
     .storiesCardBrandName {
         margin: 0px auto;
         width: 100%;
         height: 57px;
-        font-size: 18px;
+        font-size: 17px;
     }
     .storiesCardButton {
-        width: 85%;
+        width: 100%;
         height: 52px;
         font-size: 18px;
     }
@@ -361,6 +372,11 @@
         height: 285px;
         margin-top: -1170px;
         gap: 30px;
+    }
+    .storiesCardBrandName {
+        width: 100%;
+        height: 57px;
+        font-size: 16px;
     }
     .scratchBottom {
         width: 100%;
@@ -407,11 +423,24 @@
         width: 50%;
         height: 240px;
     }
+    .storiesCardButton {
+        border-radius: 12px;
+    }
     .scratchBottom {
         width: 100%;
         height: 5%;
         position: absolute;
         top: 2445px;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .scratchBottom {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 2438px;
         gap: 0px;
     }
 }
