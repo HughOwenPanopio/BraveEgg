@@ -91,11 +91,11 @@
     .leadingBrandMainContainer {
         margin-top: -150px;
         height: 15%;
-        padding: 100px 10px 10px 10px;
+        padding: 100px 0px 10px 0px;
     }
     .brandContent {
         margin: -50px auto;
-        width: 722px;
+        width: 100%;
         height: 106px;
         padding: 5px 0px 20px 0px;
         align-items: center;
@@ -142,7 +142,7 @@
 
 @media screen and (max-width: 736px) {
     .brandContent {
-        width: 660px;
+        width: 100%;
         height: 106px;
     }
     .brandText {
@@ -156,11 +156,11 @@
 
 @media screen and (max-width: 684px) {
     .brandContent {
-        width: 610px;
+        width: 100%;
         height: 106px;
     }
     .brandText {
-        font-size: 12.3px;
+        font-size: 12px;
         line-height: 22.14px;
         text-align: left;
         padding-left: 35px;
@@ -184,7 +184,7 @@
 
 @media screen and (max-width: 667px) {
     .brandContent {
-        width: 590px;
+        width: 100%;
         height: 100px;
     }
     .brandText {
@@ -215,32 +215,32 @@
         margin-top: -80px;
     }
     .brandContent {
-        margin: -65px auto;
-        width: 370px;
-        height: 80px;
-        border-radius: 15px;
+        margin: 0px auto;
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
     }
     .brandCol {
         margin: -15px auto;
     }
     .brandText {
-        font-size: 7.5px;
+        font-size: 6.5px;
         line-height: 12.14px;
         text-align: left;
         padding: 30px 10px 0px 25px;
     }
     .teeter{
-        width: 50px;
+        width: 40px;
         height: 20px;
     }
     
     .cannaWholesalers {
-        width: 33px;
-        height: 33px;
+        width: 30px;
+        height: 30px;
     }
     
     .destinoFarms {
-        width: 50px;
+        width: 40px;
         height: 20px;
     }
 }
@@ -250,7 +250,8 @@
         margin-top: -80px;
     }
     .brandContent {
-        margin: -65px auto;
+        margin: 0 auto;
+        width: 100%;
     }
 }
 
@@ -258,16 +259,20 @@
     .leadingBrandMainContainer {
         margin-top: -80px;
         height: 13%;
+        padding: 0px 25px 0px 25px;
     }
     .brandContent {
-        margin: -78px auto;
-        width: 330px;
-        height: 80px;
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+    }
+    .brandCol {
+        margin: -25px auto;
     }
     .brandText {
-        font-size: 6.5px;
+        font-size: 5.78px;
         line-height: 9px;
-        padding-top: 35px;
+        padding-top: 40px;
     }
     .teeter{
         width: 40px;
@@ -288,8 +293,13 @@
 
 @media screen and (max-width: 320px) {
     .brandContent {
-        width: 300px;
-        height: 80px;
-        border-radius: 12px;
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .brandText {
+        font-size: 4px;
+        line-height: 9px;
+        padding-top: 40px;
     }
 }
