@@ -311,6 +311,13 @@
     }
 }
 
+@media screen and (max-width: 801px) {
+    .scratchBottom {
+        position: absolute;
+        top: 2545px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .storiesContainer {
         background-size: contain;
