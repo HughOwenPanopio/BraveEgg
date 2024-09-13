@@ -301,7 +301,13 @@
     .scratchBottom {
         position: absolute;
         top: 2561px;
-        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .scratchBottom {
+        position: absolute;
+        top: 2552px;
     }
 }
 
