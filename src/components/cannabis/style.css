@@ -196,11 +196,13 @@
         width: 362px;
         font-size: 25px;
         height: 90px;
+        border-radius: 20px;
     }
     .cannabisBtn .cannabisBtnHoWo {
         width: 362px;
         font-size: 25px;
         height: 90px;
+        border-radius: 20px;
     }
     .waterBGContainer {
         width: 100%;
@@ -285,11 +287,13 @@
         width: 362px;
         font-size: 18px;
         height: 60px;
+        border-radius: 15px;
     }
     .cannabisBtn .cannabisBtnHoWo {
         width: 362px;
         font-size: 18px;
         height: 60px;
+        border-radius: 15px;
     }
     .waterBGContainer {
         width: 100%;

@@ -226,16 +226,17 @@
 @media screen and (max-width: 425px) {
     .servicesMainContainer {
         width: 100%;
-        height: 400px;
+        height: 380px;
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 20px;
         margin-top: -10px;
+        align-content: center;
+        padding-bottom: 80px;
     }
     .servicesCard {
-        width: 180px !important;
+        width: 160px !important;
         height: 150px !important;
-        padding-top: 5px;
     }
     .servicesText {
         margin-top: 15px;
@@ -247,21 +248,21 @@
         width: 100%;
         height: 5%;
         position: absolute;
-        top: 1500px;
+        top: 1482px;
     }
 }
 
 @media screen and (max-width: 415px) {
     .servicesMainContainer {
         width: 100%;
-        height: 400px;
+        height: 390px;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         margin-top: -10px;
     }
     .servicesCard {
-        width: 176px !important;
+        width: 160px !important;
         height: 150px !important;
         padding-top: 5px;
     }
@@ -269,7 +270,7 @@
         width: 100%;
         height: 5%;
         position: absolute;
-        top: 1495px;
+        top: 1489px;
     }
 }
 
@@ -279,15 +280,23 @@
         height: 400px;
     }
     .servicesCard {
-        width: 175px !important;
+        width: 160px !important;
         height: 150px !important;
         padding-top: 5px;
+    }
+    .scratchWhite {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 1500px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .servicesMainContainer {
         width: 100%;
+        height: 370px;
+        padding: 0px 0px 0px 0px;
     }
     .servicesCard {
         width: 155px !important;
@@ -299,21 +308,28 @@
     }
     .scratchWhite {
         position: absolute;
-        top: 1450px;
+        top: 1421px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .servicesMainContainer {
         width: 100%;
-        margin-top: 0px;
+        height: 320px;
+        padding-bottom: 20px;
     }
     .servicesCard {
-        width: 137px !important;
-        height: 140px !important;
+        width: 130px !important;
+        height: 130px !important;
+        align-items: center;
+    }
+    .servicesText {
+        width: 108px;
+        height: 37px;
+        font-size: 10px;
     }
     .scratchWhite {
         position: absolute;
-        top: 1428px;
+        top: 1337px;
     }
 }
