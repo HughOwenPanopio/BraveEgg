@@ -262,7 +262,7 @@
     }
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 815px) {
     .headerStoriesContainer h1 {
         position: absolute;
         top: 2030px;
@@ -277,7 +277,7 @@
     }
     .storiesCardContainer {
         height: 350px;
-        margin-top: -800px;
+        margin-top: -810px;
         gap: 30px;
     }
     .storiesCard {
@@ -300,7 +300,7 @@
     }
     .scratchBottom {
         position: absolute;
-        top: 2562px;
+        top: 2554px;
         gap: 0px;
     }
 }
