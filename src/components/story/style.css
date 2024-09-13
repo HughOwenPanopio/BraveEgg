@@ -262,7 +262,7 @@
     }
 }
 
-@media screen and (max-width: 818px) {
+@media screen and (max-width: 825px) {
     .headerStoriesContainer h1 {
         position: absolute;
         top: 2030px;
