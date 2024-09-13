@@ -262,6 +262,49 @@
     }
 }
 
+@media screen and (max-width: 825px) {
+    .headerStoriesContainer h1 {
+        position: absolute;
+        top: 2030px;
+        left: 0px;
+        font-size: 32px;
+    }
+    .headerStoriesContainer h3 {
+        position: absolute;
+        top: 2095px;
+        left: 0px;
+        font-size: 26px;
+    }
+    .storiesCardContainer {
+        height: 350px;
+        margin-top: -800px;
+        gap: 30px;
+    }
+    .storiesCard {
+        width: 28%;
+        height: 320px;
+        gap: 0px;
+        padding: 20px 20px 20px 20px;
+    }
+    .storiesCardBrandName {
+        margin: 15px auto;
+        width: 100%;
+        height: 57px;
+        font-size: 22px;
+    }
+    .storiesCardButton {
+        width: 100%;
+        height: 65px;
+        font-size: 22px;
+        border-radius: 15px;
+    }
+    .scratchBottom {
+        position: absolute;
+        top: 2562px;
+        gap: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .storiesContainer {
         background-size: contain;
