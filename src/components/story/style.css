@@ -262,7 +262,7 @@
     }
 }
 
-@media screen and (max-width: 823px) {
+@media screen and (max-width: 813px) {
     .headerStoriesContainer h1 {
         position: absolute;
         top: 2030px;
@@ -300,7 +300,7 @@
     }
     .scratchBottom {
         position: absolute;
-        top: 2560px;
+        top: 2553px;
         gap: 0px;
     }
 }
