@@ -42,7 +42,10 @@
     height: 79.11px;
 }
 
-@media screen and (max-width: 1274px) {
+@media only screen and (min-width: 1180px) and (max-width: 1274px) {
+    .leadingBrandMainContainer {
+        padding: 100px 35px 0px 35px;
+    }
     .brandText {
         padding-left: 40px;
         font-size: 21px;
