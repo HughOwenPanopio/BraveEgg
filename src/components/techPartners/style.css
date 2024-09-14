@@ -65,5 +65,6 @@
     .techPartnersImg {
         width: 210px;
         height: 100px;
+        border-radius: 15px;
     }
 }
