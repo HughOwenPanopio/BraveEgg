@@ -536,7 +536,16 @@
         width: 100%;
         height: 5%;
         position: absolute;
-        top: 2438px;
+        top: 2433px;
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .scratchBottom {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 2443px;
         gap: 0px;
     }
 }
@@ -544,25 +553,25 @@
 @media screen and (max-width: 375px) {
     .headerStoriesContainer h1 {
         position: absolute;
-        top: 1480px;
+        top: 1450px;
         left: 0px;
         font-size: 28px;
     }
     .headerStoriesContainer h3 {
         position: absolute;
-        top: 1535px;
+        top: 1505px;
         left: 0px;
         font-size: 24px;
     }
     .storiesCardContainer {
         width: 100%;
         height: 285px;
-        margin-top: -1380px;
+        margin-top: -1400px;
         gap: 20px;
     }
     .scratchBottom {
         position: absolute;
-        top: 2395px;
+        top: 2365px;
         gap: 0px;
     }
 }
