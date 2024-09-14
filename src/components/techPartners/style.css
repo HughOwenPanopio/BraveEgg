@@ -1,5 +1,5 @@
 .techPartnersContainer {
-    width: 1903px;
+    width: 100%;
     height: 494px;
     top: 3714px;
     gap: 0px;
@@ -11,8 +11,8 @@
     text-transform: uppercase;
     width: 858px;
     height: 89px;
-    top: 3877px;
     position: absolute;
+    top: 3877px;
     left: 531px;
     gap: 0px;
     opacity: 0px;
@@ -42,4 +42,13 @@
     height: 161.38px;
     border-radius: 29.15px;
     opacity: 0px;
+}
+
+/*! for iPad Air 4 */
+@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+    .techPartnersHeader {
+        width: 100%;
+        top: 2820px;
+        left: 0px;
+    }
 }

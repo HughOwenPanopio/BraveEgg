@@ -20,7 +20,7 @@ function App() {
         <LeadingBrands />
         <Services />
         <Stories />
-        {/* <TechPartners /> */}
+        <TechPartners />
         {/* <Consultation /> */}
         {/* <OurProcess /> */}
         {/* <FreqAskQues /> */}
