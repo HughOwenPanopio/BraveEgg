@@ -151,18 +151,18 @@
         height: 750px;
     }
     .headerStoriesContainer h1 {
-        top: 2420px;
+        top: 2220px;
         left: 0px;
     }
     .headerStoriesContainer h3 {
         width: 100%;
-        top: 2500px;
+        top: 2300px;
         left: 0px;
     }
     .storiesCardContainer {
         height: 311px;
         gap: 40px;
-        top: 2600px;
+        top: 2400px;
     }
     .storiesCard {
         width: 280px;
@@ -187,28 +187,28 @@
         font-size: 28px;
     }
     .scratchBottom {
-        top: 3005px;
+        top: 2802px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .storiesContainer {
-        height: 580px;
+        height: 570px;
     }
     .headerStoriesContainer h1 {
         width: 100%;
         height: 50px;
-        top: 1860px;
+        top: 1660px;
         font-size: 45px;
         line-height: 0px;
         align-content: center;
     }
     .headerStoriesContainer h3 {
-        top: 1910px;
+        top: 1710px;
         font-size: 30px;
     }
     .storiesCardContainer {
-        top: 2000px;
+        top: 1780px;
         gap: 20px;
     }
     .storiesCard {
@@ -230,7 +230,52 @@
         border-radius: 10px;
     }
     .scratchBottom {
-        top: 2334px;
+        top: 2124px;
         height: 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .storiesContainer {
+        height: 1470px;
+        background-size: cover;
+        background-position: center;
+    }
+    .headerStoriesContainer h1 {
+        top: 1550px;
+        font-size: 30px;
+        height: 30px;
+    }
+    .headerStoriesContainer h3 {
+        top: 1580px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .headerStoriesContainer {
+        height: 250px;
+    }
+    .storiesCardContainer {
+        top: 1650px;
+    }
+    .storiesCard {
+        width: 300px;
+        height: 400px;
+        gap: 10px;
+    }
+    .storiesCardImg {
+        height: 200px;
+        border-radius: 10px;
+    }
+    .storiesCardBrandName {
+        font-size: 30px;
+    }
+    .storiesCardButton {
+        height: 70px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    .scratchBottom {
+        top: 2937px;
+        height: 50px;
     }
 }

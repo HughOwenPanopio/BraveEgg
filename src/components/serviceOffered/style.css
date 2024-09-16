@@ -98,7 +98,7 @@
     }
     .servicesCard {
         height: 180px !important;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .servicesImage {
         width: 50px;
@@ -110,7 +110,7 @@
         margin-top: 10px;
     }
     .scratchWhite {
-        top: 2287px;
+        top: 2085px;
     }
 }
 
@@ -160,7 +160,7 @@
         font-size: 15px;
     }
     .scratchWhite {
-        top: 1767px;
+        top: 1568px;
         height: 70px;
     }
 }
@@ -174,7 +174,7 @@
         height: 140px !important;
     }
     .scratchWhite {
-        top: 1475px;
+        top: 1476px;
         height: 50px;
     }
 }
