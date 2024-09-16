@@ -128,3 +128,24 @@
         border-radius: 6px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .techPartnersContainer {
+        height: 180px;
+    }
+    .techPartnersHeader {
+        top: 2360px;
+        font-size: 25px;
+    }
+    .techPartnersLogo {
+        top: 2435px;
+        gap: 10px;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .techPartnersImg {
+        width: 85px;
+        height: 42.5px;
+        border-radius: 5px;
+    }
+}
