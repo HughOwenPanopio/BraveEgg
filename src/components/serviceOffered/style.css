@@ -68,10 +68,18 @@
     }
 }
 
+/*! for iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .scratchWhite {
         height: 100px !important;
         top: 2080px !important;
+    }
+}
+
+@media only screen and (min-width: 1180px) and (max-width: 1274px) {
+    .scratchWhite {
+        position: absolute;
+        top: 2657px !important;
     }
 }
 
