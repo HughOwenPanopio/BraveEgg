@@ -93,3 +93,22 @@
     left: 0;
     z-index: 2;
 }
+
+/*! iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .cannabisContent h2 {
+        font-size: 60px;
+    }
+    .cannabisContent h1 {
+        font-size: 100px;
+    }
+    .cannabisContent p {
+        width: 100%;
+        font-size: 30px;
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+    
+}
