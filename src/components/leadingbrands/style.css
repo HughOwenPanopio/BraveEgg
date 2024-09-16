@@ -88,7 +88,8 @@
 /*! laptop view */
 @media screen and (max-width: 1024px) {
     .leadingBrandMainContainer {
-        padding: 70px 50px 0px 50px;
+        align-content: center;
+        padding: 0px 50px 0px 50px;
     }
     .teeter{
         width: 140px;
@@ -117,6 +118,38 @@
     }
     .brandText {
         padding-left: 25px;
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 30px;
+    }
+    .teeter{
+        width: 120px;
+        height: 49px;
+    }
+    
+    .cannaWholesalers {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .destinoFarms {
+        width: 120px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leadingBrandMainContainer {
+        padding: 0px 40px 0px 40px;
+        margin: 0px;
+        height: 260px;
+        align-content: center;
+    }
+    .brandContent {
+        height: 120px;
+    }
+    .brandText {
+        padding-left: 20px;
         font-size: 13px;
         line-height: 20px;
         padding-top: 30px;
