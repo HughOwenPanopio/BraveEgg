@@ -85,10 +85,14 @@
     .techPartnersImg {
         width: 135px;
         height: 67.5px;
+        border-radius: 10px;
     }
 }
 
 @media screen and (max-width: 425px) {
+    .techPartnersContainer {
+        height: 250px;
+    }
     .techPartnersHeader {
         top: 2975px;
         font-size: 35px;
@@ -101,8 +105,26 @@
     .techPartnersImg {
         width: 120px;
         height: 60px;
+        border-radius: 8px;
     }
+}
+
+@media screen and (max-width: 375px) {
     .techPartnersContainer {
-        height: 250px;
+        height: 220px;
+    }
+    .techPartnersHeader {
+        top: 2840px;
+        font-size: 30px;
+    }
+    .techPartnersLogo {
+        top: 2920px;
+        gap: 10px;
+        height: 70px;
+    }
+    .techPartnersImg {
+        width: 105px;
+        height: 52.5px;
+        border-radius: 6px;
     }
 }
