@@ -43,6 +43,10 @@
     opacity: 0px;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+}
+
 /*! for iPad Air 4 landscape*/
 @media only screen and (min-width: 1024px) and (max-width: 1180px) {
     .techPartnersContainer {

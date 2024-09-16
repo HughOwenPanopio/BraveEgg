@@ -68,6 +68,13 @@
     }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .scratchWhite {
+        height: 100px !important;
+        top: 2080px !important;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .servicesMainContainer {
         width: 100%;
