@@ -84,3 +84,24 @@
         height: 59px;
     }
 }
+
+/*! laptop view */
+@media screen and (max-width: 1024px) {
+    .leadingBrandMainContainer {
+        padding: 70px 50px 0px 50px;
+    }
+    .teeter{
+        width: 140px;
+        height: 49px;
+    }
+    
+    .cannaWholesalers {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .destinoFarms {
+        width: 140px;
+        height: 70px;
+    }
+}

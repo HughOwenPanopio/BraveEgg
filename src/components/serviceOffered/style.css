@@ -89,3 +89,26 @@
         top: 2361px;
     }
 }
+
+/*! laptop view */
+@media screen and (max-width: 1024px) {
+    .servicesMainContainer {
+        height: 250px;
+    }
+    .servicesCard {
+        height: 180px !important;
+        margin-top: 30px;
+    }
+    .servicesImage {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .servicesText {
+        font-size: 16px;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .scratchWhite {
+        top: 2287px;
+    }
+}
