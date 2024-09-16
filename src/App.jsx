@@ -21,7 +21,7 @@ function App() {
         <Services />
         <Stories />
         <TechPartners />
-        {/* <Consultation /> */}
+        <Consultation />
         {/* <OurProcess /> */}
         {/* <FreqAskQues /> */}
       </div>

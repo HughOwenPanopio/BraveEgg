@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 1903px;
+    width: 100%;
     height: 2769px;
     top: 4178px;
     left: -7px;
@@ -12,7 +12,7 @@
 }
 
 .consultationHeaderContent{
-    width: 1903px;
+    width: 100%;
     height: 684px;
     top: 4201px;
     left: -1px;
@@ -21,7 +21,7 @@
 }
 
 .rectangle {
-    width: 1903px;
+    width: 100%;
     height: 235.93px;
     top: 4436.93px;
     left: 1920px;
@@ -42,11 +42,11 @@
 }
 
 .consultationHeading {
-    width: 1390px;
+    width: 100%;
     height: 89px;
     position: absolute;
     top: 4511px;
-    left: 265px;
+    left: 0px;
     gap: 0px;
     opacity: 0px;
     text-transform: uppercase;
@@ -58,11 +58,11 @@
 }
 
 .consultationDescription {
-    width: 1092px;
+    width: 100%;
     height: 147px;
     position: absolute;
     top: 4615px;
-    left: 413px;
+    left: 0px;
     gap: 0px;
     opacity: 0px;
     font-size: 32px;
@@ -70,6 +70,7 @@
     line-height: 48.22px;
     text-align: center;
     color: rgba(69, 40, 182, 1);
+    padding: 0px 470px 0px 470px;
 }
 
 .clipRight {
@@ -205,4 +206,51 @@
     line-height: 50.4px;
     text-align: center;
     color: rgba(249, 249, 249, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    .consultationContainer {
+        width: 100%;
+    }
+    .cloudImg {
+        width: 100%;
+    }
+    .consultationHeading {
+        top: 3400px;
+    }
+    .consultationDescription {
+        padding: 0px 130px 0px 130px;
+        top: 3500px;
+    }
+    .clipRight {
+        left: 512px;
+        top: 3400px;
+        width: 50%;
+    }
+    .clipLeft {
+        top: 3400px;
+        width: 50%;
+    }
+    .consultationCard {
+        top: 3750px;
+        width: 100%;
+        left: 0px;
+        padding: 0px 80px 0px 80px;
+    }
+    .consultationCardImg {
+        width: 330px;
+        height: 335px;
+        top: 5352px;
+        left: 413px;
+        gap: 0px;
+        border-radius: 20px;
+        opacity: 0px;
+    }
+    .consultationCardContent {
+        width: 100%;
+        gap: 10px;
+    }
+    .freeConsultationBTNContainer {
+        width: 100%;
+    }
 }
