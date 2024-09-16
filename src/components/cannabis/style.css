@@ -151,7 +151,7 @@
 }
 
 /*! iPad Air portrait */
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 820px) and (max-width: 1024px) {
     .cannabisContent {
         margin-top: 50px;
     }
