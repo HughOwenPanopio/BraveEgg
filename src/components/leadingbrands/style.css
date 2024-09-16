@@ -42,6 +42,7 @@
     height: 79.11px;
 }
 
+/*! for iPad Air 4 landscape */
 @media only screen and (min-width: 1180px) and (max-width: 1274px) {
     .leadingBrandMainContainer {
         padding: 100px 35px 0px 35px;
