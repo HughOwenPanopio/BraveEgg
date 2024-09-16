@@ -114,13 +114,13 @@
 }
 
 /*! iPad Air portrait */
-@media screen and (min-width: 820px) and (max-width: 1023px) {
+@media screen and (min-width: 820px) and (max-width: 834px) {
     .servicesMainContainer {
         height: 220px;
         gap: 20px;
     }
     .servicesCard {
-        width: 160px !important;
+        width: 165px !important;
         height: 150px !important;
     }
     .servicesImage {
