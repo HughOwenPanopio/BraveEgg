@@ -49,65 +49,35 @@
     color: rgba(245, 245, 245, 1);
 }
 
-@media screen and (max-width: 1274px) {
+/*! iPad Pro portrait  */
+@media only screen and (min-width:1024px) and (max-width:1366px) {
     .servicesMainContainer {
-        gap: 35px;
+        height: 300px;
+        gap: 40px;
+        padding-bottom: 100px;
     }
     .servicesCard {
-        width: 250px !important;
-        height: 250px !important;
-    }
-    .servicesText {
-        width: 100%;
-        height: 77px;
-        font-size: 20px;
-    }
-    .scratchWhite {
-        position: absolute;
-        top: 2650px;
-    }
-}
-
-/*! for iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .scratchWhite {
-        height: 100px !important;
-        top: 2080px !important;
-    }
-}
-
-/*! for iPad Air 4 landscape  */
-@media only screen and (min-width: 1180px) and (max-width: 1274px) {
-    .scratchWhite {
-        position: absolute;
-        top: 2657px !important;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .servicesMainContainer {
-        width: 100%;
-        height: 250px;
-        margin: 0 auto;
-        gap: 30px;
-    }
-    .servicesCard {
-        width: 208px !important;
-        height: 187px !important;
+        width: 200px !important;
+        height: 200px !important;
+        margin-top: 0px;
     }
     .servicesImage {
-        width: 53px;
-        margin-top: 10px;
+        width: 50px;
+        margin-top: 20px;
     }
     .servicesText {
-        width: 156px;
-        height: 77px;
+        width: 100%;
+        height: 70px;
         font-size: 18px;
     }
     .scratchWhite {
         width: 100%;
-        height: 10%;
-        position: absolute;
-        top: 2085px;
+        height: 100px;
+        top: 2378px;
     }
+}
+
+/*! iPad Air 4 landscape*/
+@media only screen and (min-width: 1180px) and (max-width: 1200px) {
+    
 }
