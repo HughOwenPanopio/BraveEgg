@@ -107,8 +107,20 @@
         font-size: 30px;
         padding: 0px 30px 0px 30px;
     }
+    .plant {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1180px) {
-    
+    .cannabisContent p {
+        font-size: 28px;
+        padding: 0px 100px 0px 100px;
+    }
+    .cannabisBtn .cannabisBtnInRev {
+        width: 532px;
+    }
+    .cannabisBtn .cannabisBtnHoWo {
+        width: 504px;
+    }
 }
