@@ -112,7 +112,8 @@
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+/*! iPad Air 4 landscape*/
+@media only screen and (min-width: 1180px) and (max-width: 1200px) {
     .cannabisContent p {
         font-size: 28px;
         padding: 0px 100px 0px 100px;
