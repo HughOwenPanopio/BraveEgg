@@ -178,3 +178,14 @@
         height: 50px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .servicesCard {
+        width: 158px !important;
+        height: 140px !important;
+    }
+    .scratchWhite {
+        top: 1458px;
+        height: 40px;
+    }
+}

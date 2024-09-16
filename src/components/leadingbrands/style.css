@@ -185,9 +185,10 @@
     .brandText {
         height: 80px;
         padding-left: 20px;
-        font-size: 10px;
-        line-height: 15px;
-        padding-top: 10px;
+        font-size: 6.5px;
+        line-height: 10px;
+        padding-top: 0px;
+        align-content: center;
     }
     .teeter{
         width: 60px;
@@ -210,8 +211,14 @@
         padding: 0px 20px 0px 20px;
         height: 150px;
     }
+    .brandContent {
+        height: 60px;
+    }
+    .brands {
+        height: 60px;
+    }
     .brandText {
-        height: 80px;
+        height: 60px;
         padding-left: 15px;
         font-size: 6px;
         line-height: 10px;
