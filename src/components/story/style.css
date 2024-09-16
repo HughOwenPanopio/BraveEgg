@@ -279,3 +279,43 @@
         height: 50px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .storiesContainer {
+        height: 1370px !important;
+    }
+    .storiesContainer {
+        height: 1470px;
+        background-size: cover;
+        background-position: center;
+    }
+    .headerStoriesContainer h1 {
+        top: 1520px;
+        font-size: 28px;
+        height: 30px;
+    }
+    .headerStoriesContainer h3 {
+        top: 1550px;
+        font-size: 18px;
+        height: 30px;
+    }
+    .storiesCardContainer {
+        top: 1610px;
+    }
+    .storiesCard {
+        width: 280px;
+        height: 380px;
+    }
+    .storiesCardBrandName {
+        font-size: 28px;
+    }
+    .storiesCardButton {
+        height: 60px;
+        font-size: 23px;
+        border-radius: 10px;
+    }
+    .scratchBottom {
+        top: 2820px;
+        height: 40px;
+    }
+}
