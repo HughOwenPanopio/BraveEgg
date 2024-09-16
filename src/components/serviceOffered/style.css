@@ -189,3 +189,20 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .servicesMainContainer {
+        height: 320px;
+    }
+    .servicesCard {
+        width: 130px !important;
+        height: 130px !important;
+    }
+    .servicesText {
+        font-size: 12.5px;
+    }
+    .scratchWhite {
+        top: 1235px;
+        height: 40px;
+    }
+}
