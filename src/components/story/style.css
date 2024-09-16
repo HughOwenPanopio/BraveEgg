@@ -319,3 +319,47 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .storiesContainer {
+        height: 1120px !important;
+    }
+    .headerStoriesContainer h1 {
+        top: 1290px;
+        font-size: 23px;
+        height: 30px;
+    }
+    .headerStoriesContainer h3 {
+        top: 1310px;
+        font-size: 15px;
+        height: 30px;
+    }
+    .storiesCardContainer {
+        top: 1370px;
+    }
+    .storiesCard {
+        width: 250px;
+        height: 305px;
+        gap: 0px;
+    }
+    .storiesCardImg {
+        height: 150px;
+        border-radius: 10px;
+    }
+    .storiesCardBrandName {
+        font-size: 24px;
+    }
+    .storiesCardButton {
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .scratchBottom {
+        top: 2820px;
+        height: 40px;
+    }
+    .scratchBottom {
+        top: 2348px;
+        height: 40px;
+    }
+}
