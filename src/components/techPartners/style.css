@@ -111,3 +111,25 @@
         border-radius: 15px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .techPartnersContainer {
+        height: 250px;
+    }
+    .techPartnersContainer {
+        margin-top: -38px;
+    }
+    .techPartnersHeader {
+        top: 2320px;
+        font-size: 35px;
+    }
+    .techPartnersLogo {
+        top: 2420px;
+        height: 60px;
+    }
+    .techPartnersImg {
+        width: 120px;
+        height: 60px;
+        border-radius: 15px;
+    }
+}
