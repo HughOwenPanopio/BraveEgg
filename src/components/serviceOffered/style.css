@@ -79,5 +79,13 @@
 
 /*! iPad Air 4 landscape*/
 @media only screen and (min-width: 1180px) and (max-width: 1200px) {
-    
+    .servicesCard {
+        width: 230px !important;
+    }
+    .servicesText {
+        align-content: center;
+    }
+    .scratchWhite {
+        top: 2361px;
+    }
 }

@@ -63,5 +63,24 @@
 
 /*! iPad Air 4 landscape*/
 @media only screen and (min-width: 1180px) and (max-width: 1200px) {
+    .leadingBrandMainContainer {
+        padding: 70px 70px 0px 70px;
+    }
+    .brandText {
+        padding-left: 40px;
+    }
+    .teeter{
+        width: 160px;
+        height: 59px;
+    }
     
+    .cannaWholesalers {
+        width: 83px;
+        height: 95px;
+    }
+    
+    .destinoFarms {
+        width: 161px;
+        height: 59px;
+    }
 }
