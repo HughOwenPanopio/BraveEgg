@@ -135,3 +135,27 @@
         font-size: 40px;
     }
 }
+
+/*! laptop view */
+@media screen and (max-width: 1024px) {
+    .cannabisContent h2 {
+        font-size: 50px;
+    }
+    .cannabisContent h1 {
+        font-size: 90px;
+    }
+    .cannabisContent p {
+        font-size: 28px;
+        padding: 0px 100px 0px 100px;
+    }
+}
+
+/*! iPad Air portrait */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .cannabisContent h2 {
+        font-size: 45px;
+    }
+    .cannabisContent h1 {
+        font-size: 75px;
+    }
+}
