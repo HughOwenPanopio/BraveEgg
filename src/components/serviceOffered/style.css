@@ -50,7 +50,7 @@
 }
 
 /*! iPad Pro portrait  */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width:1024px) and (max-width:1366px) {
     .servicesMainContainer {
         height: 300px;
         gap: 40px;
@@ -78,7 +78,7 @@
 }
 
 /*! iPad Air 4 landscape*/
-@media only screen and (min-width: 1180px) and (max-width: 820px) {
+@media only screen and (min-width: 1180px) and (max-width: 1200px) {
     .servicesCard {
         width: 230px !important;
     }
@@ -114,7 +114,7 @@
 }
 
 /*! iPad Air portrait */
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 820px) and (max-width: 1023px) {
     .servicesMainContainer {
         height: 220px;
         gap: 20px;
