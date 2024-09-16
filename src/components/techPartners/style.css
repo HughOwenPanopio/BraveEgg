@@ -43,7 +43,7 @@
     opacity: 0px;
 }
 
-/*! for iPad Air 4 */
+/*! for iPad Air 4 landscape*/
 @media only screen and (min-width: 1024px) and (max-width: 1180px) {
     .techPartnersContainer {
         height: 400px;
@@ -90,6 +90,24 @@
     .techPartnersImg {
         width: 170px;
         height: 100px;
+        border-radius: 15px;
+    }
+}
+
+/*! for iPad Air 4 portrait */
+@media only screen and (min-width: 805px) and (max-width: 820px) {
+    .techPartnersContainer {
+        height: 290px;
+    }
+    .techPartnersHeader {
+        top: 2650px;
+    }
+    .techPartnersLogo {
+        top: 2780px;
+    }
+    .techPartnersImg {
+        width: 130px;
+        height: 65px;
         border-radius: 15px;
     }
 }
