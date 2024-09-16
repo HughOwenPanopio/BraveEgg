@@ -105,3 +105,34 @@
         height: 70px;
     }
 }
+
+/*! iPad Air portrait */
+@media only screen and (min-width: 820px) and (max-width: 1023px) {
+    .leadingBrandMainContainer {
+        margin-top: -50px;
+        height: 14%;
+    }
+    .brandContent {
+        height: 120px;
+    }
+    .brandText {
+        padding-left: 25px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 30px;
+    }
+    .teeter{
+        width: 120px;
+        height: 49px;
+    }
+    
+    .cannaWholesalers {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .destinoFarms {
+        width: 120px;
+        height: 60px;
+    }
+}

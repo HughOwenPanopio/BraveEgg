@@ -112,3 +112,29 @@
         top: 2287px;
     }
 }
+
+/*! iPad Air portrait */
+@media only screen and (min-width: 820px) and (max-width: 1023px) {
+    .servicesMainContainer {
+        height: 220px;
+        gap: 20px;
+    }
+    .servicesCard {
+        width: 160px !important;
+        height: 150px !important;
+    }
+    .servicesImage {
+        width: 40px;
+        margin-top: 5px;
+    }
+    .servicesText {
+        width: 100%;
+        height: 60px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .scratchWhite {
+        top: 1860px;
+        height: 75px;
+    }
+}
