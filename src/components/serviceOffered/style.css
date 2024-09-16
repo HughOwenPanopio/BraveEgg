@@ -114,7 +114,7 @@
 }
 
 /*! iPad Air portrait */
-@media screen and (min-width: 835px) and (max-width: 1023px) {
+@media screen and (min-width: 820px) and (max-width: 1023px) {
     .servicesMainContainer {
         height: 220px;
         gap: 20px;
