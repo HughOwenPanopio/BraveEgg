@@ -50,7 +50,7 @@
 }
 
 /*! iPad Pro portrait  */
-@media only screen and (min-width:1024px) and (max-width:1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .servicesMainContainer {
         height: 300px;
         gap: 40px;
