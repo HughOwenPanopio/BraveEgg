@@ -4,6 +4,7 @@
     top: 2221px;
     opacity: 0px;
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
     align-items: center;
     justify-content: center;
@@ -136,5 +137,30 @@
     .scratchWhite {
         top: 1845px;
         height: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .servicesMainContainer {
+        height: 200px;
+        gap: 20px;
+    }
+    .servicesCard {
+        width: 155px !important;
+        height: 140px !important;
+        margin-top: 0px;
+    }
+    .servicesImage {
+        width: 35px;
+        margin-top: 0px;
+    }
+    .servicesText {
+        width: 100%;
+        height: inherit;
+        font-size: 15px;
+    }
+    .scratchWhite {
+        top: 1767px;
+        height: 70px;
     }
 }
