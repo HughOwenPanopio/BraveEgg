@@ -484,3 +484,92 @@
         top: 6660px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .OurProcessContainer {
+        height: 2199px;
+    }
+    .ourProcessRectangle {
+        height: 50px;
+        margin-top: 2px;
+    }
+    .ourProcessRectangleBig {
+        top: 3921px;
+        height: 60px;
+    }
+    .clourProcessImg {
+        top: 3921px;
+        height: 100px;
+    }
+    .ourProcessHeading {
+        height: 35px;
+        top: 3975px;
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .ourProcessIntroduction {
+        height: 40px;
+        top: 4010px;
+        line-height: 18px;
+        font-size: 15px;
+        padding: 0px 50px 0px 50px;
+    }
+    .ourProcessCardsContainer {
+        width: 100%;
+        top: 4110px;
+        left: 0px;
+        gap: 0px;
+        justify-content: center;
+    }
+    .ourProcessCardContent {
+        width: 250px;
+        height: 270px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
+    .ourProcessCardNum {
+        width: 32px;
+        height: 32px;
+        margin: -30px auto;
+        margin-bottom: 20px;
+    }
+    .processNum {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ourProcessCardImg {
+        width: 40px;
+        height: 40px;
+    }
+    .ourProcessCardTitle {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .ourProcessCardDescription {
+        width: 100%;
+        height: 85px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .ourProcessBTN {
+        width: 170px;
+        height: 35px;
+        font-size: 15px;
+        top: 6031px;
+        left: 105px;
+        border-radius: 5px;
+        line-height: 0px;
+    }
+    .ourProcessRectangleBigBottom {
+        top: 6060px;
+        height: 60px;
+    }
+    .clourProcessImgBottom {
+        height: 100px;
+        top: 6020px;
+    }
+}
