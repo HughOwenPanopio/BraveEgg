@@ -491,14 +491,14 @@
     }
     .ourProcessRectangle {
         height: 50px;
-        margin-top: 2px;
+        margin-top: 1px;
     }
     .ourProcessRectangleBig {
-        top: 3921px;
+        top: 3920px;
         height: 60px;
     }
     .clourProcessImg {
-        top: 3921px;
+        top: 3920px;
         height: 100px;
     }
     .ourProcessHeading {
@@ -571,5 +571,95 @@
     .clourProcessImgBottom {
         height: 100px;
         top: 6020px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .OurProcessContainer {
+        height: 2044px;
+    }
+    .ourProcessRectangle {
+        height: 40px;
+        margin-top: 1px;
+    }
+    .ourProcessRectangleBig {
+        top: 3320px;
+        height: 50px;
+    }
+    .clourProcessImg {
+        top: 3320px;
+        height: 90px;
+    }
+    .ourProcessHeading {
+        height: 35px;
+        top: 3365px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .ourProcessIntroduction {
+        height: 40px;
+        top: 3400px;
+        line-height: 15px;
+        font-size: 12px;
+        padding: 0px 50px 0px 50px;
+    }
+    .ourProcessCardsContainer {
+        width: 100%;
+        top: 3480px;
+        left: 0px;
+        gap: 0px;
+        justify-content: center;
+    }
+    .ourProcessCardContent {
+        width: 220px;
+        height: 250px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+    }
+    .ourProcessCardNum {
+        width: 32px;
+        height: 32px;
+        margin: -30px auto;
+        margin-bottom: 20px;
+    }
+    .processNum {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .ourProcessCardImg {
+        width: 40px;
+        height: 40px;
+    }
+    .ourProcessCardTitle {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ourProcessCardDescription {
+        width: 100%;
+        height: 85px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .ourProcessBTN {
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+        top: 5280px;
+        left: 85px;
+        border-radius: 5px;
+        line-height: 0px;
+    }
+    .ourProcessRectangleBigBottom {
+        top: 5315px;
+        height: 50px;
+    }
+    .clourProcessImgBottom {
+        height: 90px;
+        top: 5275px;
     }
 }
