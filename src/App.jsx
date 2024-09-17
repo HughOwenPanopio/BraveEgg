@@ -23,7 +23,7 @@ function App() {
         <TechPartners />
         <Consultation />
         <OurProcess />
-        {/* <FreqAskQues /> */}
+        <FreqAskQues />
       </div>
     </>
   )
