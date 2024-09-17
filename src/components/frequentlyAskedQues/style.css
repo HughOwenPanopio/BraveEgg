@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 1024px) {
     .freqAskQuesContainer {
-        height: 2900px;
+        height: 2800px;
     }
     .freqAskQuesHeading {
         width: 100%;
@@ -86,10 +86,11 @@
         left: 0px;
         top: 7000px;
         padding: 0px 100px 0px 100px;
+        gap: 40px;
     }
     .freqAskQuesContent {
         width: 100%;
-        padding: 50px 50px 50px 50px;
+        padding: 50px 50px 40px 50px;
         gap: 20px;
     }
     .freqAskQuesQuestion {
@@ -101,5 +102,42 @@
     .faqBulletAsnwer, .faqAnswer {
         width: 100%;
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .freqAskQuesContainer {
+        height: 2100px;
+    }
+    .freqAskQuesHeading {
+        width: 100%;
+        height: 40px;
+        top: 5750px;
+        left: 0px;
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .freqAskQuesCard {
+        width: 100%;
+        left: 0px;
+        top: 5830px;
+        padding: 0px 50px 0px 50px;
+        gap: 30px;
+    }
+    .freqAskQuesContent {
+        width: 100%;
+        padding: 50px 50px 40px 50px;
+        gap: 0px;
+    }
+    .freqAskQuesQuestion {
+        width: 100%;
+        height: 60px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .faqBulletAsnwer, .faqAnswer {
+        width: 100%;
+        font-size: 20px;
+        line-height: 32px;
     }
 }
