@@ -308,63 +308,68 @@
 
 @media screen and (max-width: 768px) {
     .OurProcessContainer {
-        height: 1705px;
+        height: 1909px;
     }
     .ourProcessRectangle {
         height: 100px;
+        margin-top: 5px;
     }
     .ourProcessRectangleBig {
-        top: 5125px;
-        height: 200px;
+        top: 3800px;
+        height: 150px;
     }
     .clourProcessImg {
-        top: 5125px;
-        height: 300px;
+        top: 3800px;
+        height: 200px;
     }
     .ourProcessHeading {
         width: 100%;
-        top: 5290px;
-        left: 0px;
+        height: 35px;
+        top: 3920px;
+        font-size: 40px;
+        line-height: 30px;
     }
     .ourProcessIntroduction {
         width: 100%;
-        top: 5390px;
-        left: 0px;
-        padding: 0px 190px 0px 190px;
-        line-height: 40px;
+        height: 55px;
+        top: 3970px;
+        line-height: 25px;
+        font-size: 22px;
     }
     .ourProcessCardsContainer {
         width: 100%;
-        top: 5590px;
+        top: 4120px;
         left: 0px;
-        gap: 30px;
+        gap: 40px;
         justify-content: center;
     }
     .ourProcessCardContent {
         width: 300px;
-        height: 430px;
+        height: 390px;
         text-align: center;
-        padding: 0px 20px 20px 20px;
-        margin-bottom: 50px;
+        padding: 0px 30px 0px 30px;
     }
     .ourProcessCardNum {
-        width: 62px;
-        height: 62px;
-        margin: -60px auto;
+        width: 52px;
+        height: 52px;
+        margin: -50px auto;
         margin-bottom: 30px;
     }
     .processNum {
-        width: 51px;
-        height: 61px;
+        width: 41px;
+        height: 51px;
         font-size: 30px;
-        line-height: 60px;
+        line-height: 50px;
     }
     .ourProcessCardImg {
         margin-left: 0px;
+        width: 50px;
+        height: 50px;
     }
     .ourProcessCardTitle {
         width: 100%;
-        font-size: 28px;
+        height: 60px;
+        font-size: 22px;
         line-height: 30px;
     }
     .ourProcessCardDescription {
@@ -372,19 +377,19 @@
         font-size: 17px;
     }
     .ourProcessBTN {
-        width: 400px;
-        height: 80px;
-        font-size: 35px;
-        top: 6580px;
-        left: 315px;
+        width: 300px;
+        height: 60px;
+        font-size: 25px;
+        top: 5520px;
+        left: 240px;
         border-radius: 15px;
     }
     .ourProcessRectangleBigBottom {
-        top: 6630px;
-        height: 200px;
+        top: 5560px;
+        height: 150px;
     }
     .clourProcessImgBottom {
-        height: 300px;
-        top: 6530px;
+        height: 200px;
+        top: 5510px;
     }
 }
