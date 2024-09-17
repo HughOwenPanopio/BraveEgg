@@ -8,6 +8,8 @@ import rocket from '../../assets/process-rocket.png'
 import write from '../../assets/process-write.png'
 import trace1 from '../../assets/process-trace1.png'
 import trace2 from '../../assets/process-trace2.png'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 const processes = [{
   num: 1,
@@ -47,6 +49,29 @@ const processes = [{
 }]
 
 function OurProcess() {
+
+  const [sortedProcesses, setSortedProcess] = useState(processes)
+
+  const handleSort = () => {
+    const viewportWidth = window.innerWidth
+
+    if (viewportWidth >= 320 && viewportWidth <= 768){
+      const sorted = [...processes].sort((a, b) => a.num - b.num)
+      setSortedProcess(sorted)
+    } else {
+      setSortedProcess(processes)
+    }
+  }
+
+  useEffect(() => {
+    handleSort()
+    window.addEventListener('resize', handleSort)
+
+    return () => {
+      window.removeEventListener('resize', handleSort)
+    }
+  }, [])
+
   return (
     <div className="OurProcessContainer">
         <div className="ourProcessRectangle"></div>
@@ -56,15 +81,15 @@ function OurProcess() {
         <p className='ourProcessIntroduction'>Ready to grow your cannabis brand? Here&apos;s how we work together:</p>
 
         <div className="ourProcessCardsContainer">
-          {processes.map((process) =>
-          <>
+          {sortedProcesses.map((process) =>
+          
             <div className="ourProcessCardContent" key={process.num}>
               <div className="ourProcessCardNum"><p className='processNum'>{process.num}</p></div>
               <img src={process.img} alt="processImg" className='ourProcessCardImg'/>
               <h3 className='ourProcessCardTitle'>{process.title}</h3>
               <p className="ourProcessCardDescription">{process.description}</p>
             </div>
-          </>
+          
           )}
           <img src={trace1} alt="" className='processtrace1'/>
           <img src={trace2} alt="" className='processtrace2'/>
